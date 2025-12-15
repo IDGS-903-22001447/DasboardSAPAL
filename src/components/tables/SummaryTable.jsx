@@ -3,7 +3,7 @@ import Card from "../Card";
 export default function SummaryTable({ data }) {
   return (
     <Card>
-      <h2 className="text-xl font-semibold mb-4">Resumen General del Pozo</h2>
+      <h2 className="text-xl font-semibold mb-4">Resumen General de Consumo de Energía</h2>
 
       <table className="w-full table-auto text-left">
         <thead>

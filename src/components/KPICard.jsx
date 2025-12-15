@@ -29,7 +29,7 @@ export default function KPICard(props) {
         ) : (
           <TrendingDown className="mr-1" size={18} />
         )}
-        <span>{change}% respecto al periodo anterior</span>
+  
       </div>
     </Card>
   );
