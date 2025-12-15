@@ -169,9 +169,9 @@ setMonthlyConsumption(monthlyArray);
 
       {/* KPI */}
       <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-8">
-        <KPICardSimple title="Factor de Potencia (Promedio)" value={avgPF} icon={Gauge} color="yellow" />
+        <KPICardSimple title="Factor de Potencia Promedio" value={avgPF} icon={Gauge} color="yellow" />
         <KPICardConsumption title="Consumo Mensual Promedio" value={avgCM} icon={Zap} color="red" />
-        <KPICardDemand title="Demanda promedio del periodo" value={avgDP} icon={Activity} color="green" />
+        <KPICardDemand title="Demanda Promedio del Periodo" value={avgDP} icon={Activity} color="green" />
         <KPICardFactorCharge title="Factor de Carga Promedio" value={avgFC} icon={BatteryCharging} color="slate" />
       </div>
 
